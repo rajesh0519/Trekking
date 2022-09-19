@@ -1,0 +1,33 @@
+.navbar_container{
+    position: absolute;
+    width: 100vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.logo{
+    width: 20%;
+    height: 320px;
+    /* background: yellow; */
+}
+.nav_links{
+    width: 80%;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+
+    background: rgba(255, 255, 255, 0.278);
+
+    display: flex;
+    justify-content: flex-end;
+}
+.nav_links a{
+    background: transparent;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 19px;
+    color:white;
+}
