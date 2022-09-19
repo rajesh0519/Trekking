@@ -5,7 +5,7 @@ const HomePage = () => {
     <>
       <div className="home_container">
         <div className="header_container">
-          <h1 className="home_header1">MAKE THE jj</h1>
+          <h1 className="home_header1">MAKE THE rr</h1>
           <h1 className="home_header2">POSSIBLE</h1>
         </div>
         <div className="btn_container">
