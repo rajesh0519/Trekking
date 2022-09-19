@@ -8,7 +8,6 @@ const HomePage = () => {
           <h1 className="home_header1">MAKE THE jj</h1>
           <h1 className="home_header2">POSSIBLE</h1>
         </div>
-
         <div className="btn_container">
           <button>Call</button>
           <button>Message</button>
