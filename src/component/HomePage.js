@@ -10,7 +10,7 @@ const HomePage = () => {
         </div>
         <div className="btn_container">
           <button>Calling</button>
-          <button>Message</button>
+          <button>Messaging</button>
         </div>
       </div>
     </>
