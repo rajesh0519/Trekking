@@ -23,11 +23,21 @@
 
     display: flex;
     justify-content: flex-end;
+    
 }
-.nav_links a{
+.link{
     background: transparent;
     padding: 10px 30px;
     font-weight: bold;
     font-size: 19px;
     color:white;
+    text-decoration: none;
+}
+.blog_button{
+    background-color: #FF3606;
+    padding: 10px 30px;
+    font-weight: bold;
+    font-size: 19px;
+    color:white;
+    text-decoration: none;
 }

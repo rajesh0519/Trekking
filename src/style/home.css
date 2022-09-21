@@ -1,6 +1,6 @@
 .home_container{
     width: 100vw;
-    min-height: 100vh;
+    min-height: 120vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,6 +11,8 @@
 .header_container{
     display: flex;
     flex-direction: column;
+    margin-right: 200px;
+    margin-bottom: 300px;
 }
 
 .home_header1{
@@ -21,15 +23,17 @@
     color: #FFFFFF;
     margin: 0;
     padding: 0;
+    
 }
 .home_header2{
-    font-family: 'Rubik Glitch';
+font-family: 'Rubik Glitch';
 font-style: normal;
 font-weight: 400;
 font-size: 100px;
 color: #FF4417;
 margin: 0;
 padding: 0;
+
 
 }
 
