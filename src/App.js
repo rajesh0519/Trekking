@@ -5,6 +5,8 @@ import Navbar from "./component/Navbar";
 import About from "./component/About";
 import Destination from "./component/Destination";
 import Whytrekking from "./component/Whytrekking";
+import Gallery from "./component/Gallery";
+import Testimonals from "./component/Testimonals";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <About/>
       <Destination/>
       <Whytrekking/>
+      <Gallery/>
+      <Testimonals/>
       
     </>
   );

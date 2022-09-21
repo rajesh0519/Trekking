@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.testimonal{
+    height: 463px;
+    background: #606060;
+}
+.testimonal .testimonal_text{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+#testimonal_text_1{
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 120px;
+    letter-spacing: 0.04em;
+    color: #272626;   
+    opacity: 0.43;
+}
+#testimonal_text_2{
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    color: #FF3606;
+}
+.testimonal_image{
+    display: flex;
+}
+.testimonal_image img{
+    margin-left: 120px;
+}
+p{
+    font-family: 'Archivo';
+font-style: normal;
+font-weight: 500;
+font-size: 23px;
+line-height: 25px;
+letter-spacing: 0.01em;
+
+color: #FFFFFF;
+}

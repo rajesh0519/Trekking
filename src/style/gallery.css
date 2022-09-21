@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.gallery_box{
+    height: 150vh;
+    width: 100vw;
+    
+}
+.gallery_box .gallery_text{
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+#gallery_text_1{
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.19;
+}
+#gallery_text_2{
+    font-family: 'Anton';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.02em;
+    color: black;
+    display: flex;
+}
+.gallery_img{
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.gallery_img img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
