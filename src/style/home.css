@@ -23,7 +23,7 @@
     color: #FFFFFF;
     margin: 0;
     padding: 0;
-    
+    line-height: 1;
 }
 .home_header2{
 font-family: 'Rubik Glitch';
@@ -33,8 +33,7 @@ font-size: 100px;
 color: #FF4417;
 margin: 0;
 padding: 0;
-
-
+line-height: 1;
 }
 
 .btn_container{

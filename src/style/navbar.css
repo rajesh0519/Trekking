@@ -23,12 +23,12 @@
 
     display: flex;
     justify-content: flex-end;
-    
+    padding-right: 30px;
 }
 .link{
     background: transparent;
     padding: 10px 30px;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 19px;
     color:white;
     text-decoration: none;
@@ -36,7 +36,7 @@
 .blog_button{
     background-color: #FF3606;
     padding: 10px 30px;
-    font-weight: bold;
+    font-weight: normal;
     font-size: 19px;
     color:white;
     text-decoration: none;
