@@ -4,14 +4,18 @@
     box-sizing: border-box;
 }
 .why_trekking{
-    height: 150vh;
+    min-height: 100vh;
     width: 100vw;
     background: black;
+    
 }
-.why_trekking .text{
+.text{
     display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 70%;
 }
-.why_trekking .text #text_1{
+ .text #text_1{
     font-family: 'Anton';
     font-style: normal;
     font-weight: 400;
@@ -19,27 +23,31 @@
     letter-spacing: 0.04em;
     color: #FFFFFF;
     opacity: 0.19;
-    margin-left: 200px;
+    text-align: center;
+    padding-left: 50px;
 }
 
-.why_trekking .text #text_2{
+.text #text_2{
     font-family: 'Anton';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-top: 50px;
+    padding-top: 50px; 
+    position: absolute;
+    padding-left: 170px;
 }
 .video_box2{
-    margin-left: 200px;
-    margin-top: 40px;
+    /* margin-left: 200px; */
+   
 }
 
 .video_box2 img{
-    width: 80%;
-    height: 30vw;
+    width: 1304px;
+    height: 60vh;
     border-radius: 41px;
+    padding-left: 150px;
 }
 .icons{
     display: flex;
@@ -64,9 +72,6 @@
     margin-top: 20px;
 }
 /* ************************************************************************************ */
-.icons_bottom_1{
-
-}
 #icon_text{
     font-family: 'Anton';
     font-style: normal;

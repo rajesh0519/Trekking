@@ -5,13 +5,15 @@
 }
 
 .testimonal{
-    height: 463px;
+    position: relative;
     background: #606060;
 }
-.testimonal .testimonal_text{
+ .testimonal_text{
     display: flex;
     justify-content: center;
     padding: 5px;
+    position: relative;
+    align-items: center;
 }
 
 #testimonal_text_1{
@@ -19,7 +21,6 @@
     font-style: normal;
     font-weight: 400;
     font-size: 80px;
-    line-height: 120px;
     letter-spacing: 0.04em;
     color: #272626;   
     opacity: 0.43;
@@ -31,20 +32,57 @@
     font-size: 30px;
     letter-spacing: 0.02em;
     color: #FF3606;
+    position: absolute;
 }
 .testimonal_image{
     display: flex;
+    padding-left: 94px;
 }
-.testimonal_image img{
-    margin-left: 120px;
+/* .testimonal_image img{ */
+    /* border: 2px solid #FF3606; */
+    /* display: ; */
+/* } */
+.bottom_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+    color:white;
+    
 }
-p{
+ #stars{
+    position: absolute;
+    padding-top: 12px;
+}
+.testimonal_image p1{
     font-family: 'Archivo';
-font-style: normal;
-font-weight: 500;
-font-size: 23px;
-line-height: 25px;
-letter-spacing: 0.01em;
-
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
 }
+
+#bottom_text_1{
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  letter-spacing: 0.02em;
+  color: #000000;
+  padding-top: 40px;
+  padding-left: 0px;
+}
+#bottom_text_2{
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+  }
+
+  .experience{
+    background-color: #FFFFFF;
+  }
+  

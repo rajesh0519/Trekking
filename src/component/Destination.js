@@ -91,7 +91,7 @@ const Destination = () => {
         </div>
         <h1 id="text_bottom_4">
           <span>“</span> THE BEST JOURNEY IN THE LIFE ARE THOSE THAT ANSWER
-          QUESTION YOU NEVER THOUGHT TO ASK
+                         QUESTION YOU NEVER THOUGHT TO ASK
         </h1>
       </div>
 

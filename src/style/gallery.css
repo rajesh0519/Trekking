@@ -9,10 +9,12 @@
     width: 100vw;
     
 }
-.gallery_box .gallery_text{
+.gallery_text{
     display: flex;
     justify-content: center;
     padding: 5px;
+    position: relative;
+    
 }
 #gallery_text_1{
     font-family: 'Anton';
@@ -30,7 +32,8 @@
     font-size: 30px;
     letter-spacing: 0.02em;
     color: black;
-    display: flex;
+    position: absolute;
+    padding-top: 50px;
 }
 .gallery_img{
     display: flex;
