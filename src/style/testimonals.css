@@ -37,16 +37,17 @@
 .testimonal_image{
     display: flex;
     padding-left: 94px;
+    padding-bottom: 40px;
 }
-/* .testimonal_image img{ */
-    /* border: 2px solid #FF3606; */
-    /* display: ; */
-/* } */
+ /* .testimonal_image img{ 
+     border: 2px solid #FF3606; 
+
+}  */
 .bottom_text{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 160px;
     color:white;
     
 }
@@ -84,5 +85,33 @@
 
   .experience{
     background-color: #FFFFFF;
+     display: flex;  
+    padding-bottom: 60px;
+    justify-content: space-evenly;
+    
   }
   
+  .experience_text{
+    display: flex;
+    width: 120px;
+    justify-content: space-around;
+    
+  }
+
+  #plus{
+    height: 20px;
+    margin-top: 15px;
+  }
+  .experience_text_box{
+    padding-top: 50px;
+  }
+
+  .experience_text_1 h1{
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 0.01em;
+    
+    color: #000000;
+  }

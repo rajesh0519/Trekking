@@ -7,6 +7,7 @@ import Destination from "./component/Destination";
 import Whytrekking from "./component/Whytrekking";
 import Gallery from "./component/Gallery";
 import Testimonals from "./component/Testimonals";
+import Ourblog from "./component/Ourblog";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Whytrekking/>
       <Gallery/>
       <Testimonals/>
+      <Ourblog/>
       
     </>
   );

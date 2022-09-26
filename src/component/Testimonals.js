@@ -15,6 +15,7 @@ const Testimonals = () => {
                 </div>
                 <div className="testimonal_image">
                     <img src="/image/testimonal.png" alt="tt" />
+                    
 
                     <div className="bottom_text">
                         <p1>trekking has always helped me in getting mental peace and a<br /> peaceful time to spend with inner me.
@@ -28,25 +29,102 @@ const Testimonals = () => {
                         </h3>
                     </div>
 
-                </div>
+                </div> 
 
 
             </div>
 
             <div className="experience">
+            <div className="experience_text_box">
                 <div className="experience_text">
-                    <img src="/image/+.png" alt="jhf"/>
+                    
+
+                    <img src="/image/tick.png" alt="jhf"/>
                  
                     <h1>
-                        15+
+                        15
                     </h1>
+                    <img src="/image/+.png" alt="hh" id="plus"/>
+                    </div>
+
+                
                     <div className="experience_text_1">
                     <h1>
                         Years Of Experience
                     </h1>
                     </div>
+                    </div>
+
+
+                    <div className="experience_text_box">
+                <div className="experience_text">
+                    
+
+                    <img src="/image/tick.png" alt="jhf"/>
+                 
+                    <h1>
+                        60
+                    </h1>
+                    <img src="/image/+.png" alt="hh" id="plus"/>
+                    </div>
+
+                
+                    <div className="experience_text_1">
+                    <h1>
+                        Years Of best Destination
+                    </h1>
+                    </div>
+                    </div>
+
+
+                    <div className="experience_text_box">
+                <div className="experience_text">
+                    
+
+                    <img src="/image/tick.png" alt="jhf"/>
+                 
+                    <h1>
+                        3,210
+                    </h1>
+                    <img src="/image/+.png" alt="hh" id="plus"/>
+                    </div>
+
+                
+                    <div className="experience_text_1">
+                    <h1>
+                       Satisfied Hikers
+                    </h1>
+                    </div>
+                    </div>
+
+
+                    <div className="experience_text_box">
+                <div className="experience_text">
+                    
+
+                    <img src="/image/tick.png" alt="jhf"/>
+                 
+                    <h1>
+                        30
+                    </h1>
+                    <img src="/image/+.png" alt="hh" id="plus"/>
+                    </div>
+
+                
+                    <div className="experience_text_1">
+                    <h1>
+                        Certified guides
+                    </h1>
+                    </div>
+                    </div>
                    
-                </div>
+                    
+    
+                    
+
+                    
+                   
+                
             </div>
         </>
     );
