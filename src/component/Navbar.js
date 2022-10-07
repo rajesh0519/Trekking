@@ -1,7 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import "../style/navbar.css";
 
+
 const Navbar = () => {
+
+  const [ nav , setNav ] = useState(false)
+
+  function toggleNav(){
+    setNav(!nav)
+  }
+
   return (
     <>
       <div className="navbar_container">
@@ -15,7 +23,28 @@ const Navbar = () => {
           <a href="aara"className="link">Gallery</a>
           <a href="aar" className="blog_button">Latest Blog</a>
         </div>
+          {
+            nav && <div className="responsive_nav">
+            <a href="aaay" >Home</a>
+              <a href="aaaggf"> About Us</a>
+              <a href="aaag">Service</a>
+              <a href="aara">Gallery</a>
+              <a href="aar" className="blog_button">Latest Blog</a>
+    
+            </div>
+          }
+        
+        <button className="nav_btn_responsive"
+        onClick={toggleNav}
+        >
+          {
+            nav ? "X" : "Open"
+          }
+          
+          </button>
+
       </div>
+      
     </>
   );
 };

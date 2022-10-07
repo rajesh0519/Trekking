@@ -28,14 +28,14 @@ const About = () => {
 
         
                 <div className="card">
-                    <img src="/image/ssss 1.png" alt="kjhgf" />
+                    <img src="/image/ssss 1.png" alt="kjhgf" id="anything"/>
                     <h1>PROFESSIONAL HIKER</h1>
                     <h3>We prefer to have an expert for our customer to guide them the best possible way and help them to make the route as easy for all our customer</h3>
                     <a href="iii">Read more</a>
                 </div>
                
-             {/* <h1 className="heading_1">don't hesistate to contact us for more details</h1>
-            <a href="kjjj">"Explore all trekking</a>  */}
+              {/* <h1 className="heading_1">don't hesistate to contact us for more details</h1> */}
+            {/* <a href="kjjj">"Explore all trekking</a>   */}
             
             
 </div>

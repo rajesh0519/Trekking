@@ -4,19 +4,23 @@
     box-sizing: border-box;
 }
 .cards_container{
-    background: url("../../public/image/bg1.png");
-    background-size: 100%;
+    background:  url("../../public/image/bg1.png");
+    /* background-blend-mode: overlay; */
+    background-size: 80%;
+    background-position: center;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 100vh;
     width: 100vw;
+    flex-wrap: wrap;
+   
     
 }
 .card{
-    height: 420px;
-    width: 375px;
+     height: 400px;
+    width: 375px; 
     border: 2px solid black;
     border-radius: 30px;
     background: #FFFFFF;
@@ -32,6 +36,7 @@
 
     
 }
+
 .card h3{
     font-size: 15px;
     font-family: 'Sen';
@@ -55,3 +60,21 @@
  justify-content: space-around;
  
 } */
+
+@media only screen and (max-width: 900px){
+    .cards_container{
+        background-repeat: repeat;
+        gap: 30px;
+        height: 10%;
+        padding: 50px 0px;
+    }
+    .card {
+        height: 290px;
+        width: 80%;
+        
+
+    }
+    .card img{
+        height: 227px;
+    }
+}

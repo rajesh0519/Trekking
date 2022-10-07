@@ -20,7 +20,9 @@ const Testimonals = () => {
                     <div className="bottom_text">
                         <p1>trekking has always helped me in getting mental peace and a<br /> peaceful time to spend with inner me.
                             and i would specially thanx <br />to this company for helping me to connect with my inner spirit.</p1>
-                        <img src="./image/stars.png" alt="fg" id="stars" />
+                            <div className="star_container">
+                            <img src="./image/stars.png" alt="fg" id="stars" />
+                            </div>
                         <h2 id="bottom_text_1">
                             NELSON MANDELA
                         </h2>

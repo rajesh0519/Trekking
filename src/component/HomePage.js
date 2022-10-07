@@ -9,8 +9,8 @@ const HomePage = () => {
           <h1 className="home_header2">IMPOSSIBLE</h1>
         </div>
         <div className="btn_container">
-          <button>Calling</button>
-          <button>Messaging</button>
+          <button>Call</button>
+          <button>Msg</button>
           
         </div>
       </div>

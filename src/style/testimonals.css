@@ -7,6 +7,8 @@
 .testimonal{
     position: relative;
     background: #606060;
+    flex-wrap: wrap;
+    height: 100%;
 }
  .testimonal_text{
     display: flex;
@@ -14,6 +16,7 @@
     padding: 5px;
     position: relative;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #testimonal_text_1{
@@ -38,6 +41,7 @@
     display: flex;
     padding-left: 94px;
     padding-bottom: 40px;
+    flex-wrap: wrap;
 }
  /* .testimonal_image img{ 
      border: 2px solid #FF3606; 
@@ -51,10 +55,7 @@
     color:white;
     
 }
- #stars{
-    position: absolute;
-    padding-top: 12px;
-}
+ 
 .testimonal_image p1{
     font-family: 'Archivo';
     font-style: normal;
@@ -62,6 +63,13 @@
     font-size: 23px;
     letter-spacing: 0.01em;
     color: #FFFFFF;
+}
+.star_container{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 #bottom_text_1{
@@ -88,6 +96,7 @@
      display: flex;  
     padding-bottom: 60px;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     
   }
   
@@ -95,7 +104,7 @@
     display: flex;
     width: 120px;
     justify-content: space-around;
-    
+     
   }
 
   #plus{
@@ -104,6 +113,7 @@
   }
   .experience_text_box{
     padding-top: 50px;
+    flex-wrap: wrap;  
   }
 
   .experience_text_1 h1{
@@ -115,3 +125,36 @@
     
     color: #000000;
   }
+  @media only screen and (max-width: 900px){
+    .bottom_text {
+      padding-left: 0px;
+    }
+    
+  .gallery_img img {
+    width: 497px;
+    height: 260px;
+  }
+    #pic {
+      width: 497.23px;
+      height: 405.83px;
+      border-radius: 61px;
+      padding-left: 25px;
+  }
+  #testimonal_text_1{
+    font-size: 65PX;
+  }
+  
+  .testimonal_image {
+    justify-content: center;
+    padding-left: 20px;
+  }
+  .testimonal_image p1 {
+    text-align: center;
+  }
+
+  #bottom_text_1 ,#bottom_text_2 {
+    text-align: center;
+  }
+  
+}
+  

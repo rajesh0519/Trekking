@@ -1,0 +1,21 @@
+h1{
+    color: rgb(0, 0, 0);
+}
+
+#btn1{
+    color: blue;
+    background-color: black;
+}
+
+
+#btn2{
+    color: yellow;
+    background-color: black;
+}
+#btn3{
+    color: lightgreen;
+    background-color: black;
+}
+#color{
+    color: red;
+}

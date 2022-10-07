@@ -5,8 +5,10 @@
 }
 
 .gallery_box{
-    height: 150vh;
+    height: 100%;
     width: 100vw;
+    overflow: hidden;
+    padding-bottom: 30px;
     
 }
 .gallery_text{
@@ -44,4 +46,9 @@
     width: 610px;
     height: 390px;
     margin: 10px;
+}
+@media only screen and (max-width : 700px){
+    .gallery_img img{
+        width: 413px;
+    }
 }
